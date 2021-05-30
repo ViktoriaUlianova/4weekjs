@@ -9,6 +9,8 @@ function sumInput() {
         if (value === "" || value === null || !isFinite(value)) break;
 
         numbers.push(+value);
+
+
     }
 
     numbers.sort();
@@ -18,7 +20,9 @@ function sumInput() {
     for (let number of numbers) {
         sum += number;
     }
-    return numbers;
+    return [numbers, sum];
+
+
 }
 
 alert(sumInput());
