@@ -20,8 +20,9 @@ function showResult() {
         } else currentPrice = +price.value;
         sum += currentPrice;
     }
-    document.getElementById("result").innerText += sum;
+    const result = "RESULT: " + sum;
+    document.getElementById("result").innerText = result;
 
-    ;
+
 
 }
