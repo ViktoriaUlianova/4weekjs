@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3vw;
+
+
+}
+
+.calculator {
+    background-color: rgba(100, 148, 237, 0.231);
+    border-radius: 13px;
+    padding: 2% 5% 2% 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h4 {
+    margin: 0;
+    padding-top: 5%;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    font-size: 32px;
+    padding: 2% 5% 2% 5%;
+    border-radius: 13px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
